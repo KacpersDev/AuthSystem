@@ -9,3 +9,6 @@ messages:
   logged-in: "&aSuccessfully logged in"
   login-failed: "&cWrong Password"
   login-usage: "&c/login <password>"
+  registered: "&aSuccessfully registered"
+  register-failed: "&cPasswrods does not match"
+  register-usage: "&c/login <password>"

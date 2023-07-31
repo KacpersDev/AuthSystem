@@ -2,6 +2,7 @@ package me.kacper;
 
 import lombok.Getter;
 import me.kacper.command.LoginCommand;
+import me.kacper.command.RegisterCommand;
 import me.kacper.listener.AuthListener;
 import me.kacper.manager.AuthManager;
 import org.bukkit.Bukkit;
@@ -36,6 +37,7 @@ public class Auth extends JavaPlugin {
 
     private void command(){
         Objects.requireNonNull(this.getCommand("login")).setExecutor(new LoginCommand(this));
+        Objects.requireNonNull(this.getCommand("register")).setExecutor(new RegisterCommand(this));
     }
 
     @Override
