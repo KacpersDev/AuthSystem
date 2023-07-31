@@ -1,0 +1,11 @@
+mongo:
+  db-name: "auth"
+  uri: ""
+
+messages:
+  title-header: "&cServerName"
+  register: "&d/Register <password> <confirm password>"
+  login: "&d/Login <password>"
+  logged-in: "&aSuccessfully logged in"
+  login-failed: "&cWrong Password"
+  login-usage: "&c/login <password>"

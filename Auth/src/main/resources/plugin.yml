@@ -1,0 +1,8 @@
+name: Auth
+main: me.kacper.Auth
+version: 1.0
+commands:
+  login:
+    aliases: [l]
+  register:
+    aliases: [reg]
